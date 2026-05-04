@@ -1,0 +1,69 @@
+.titulo{
+    color: red;
+    background-color:  beige;
+    font-family: Times New Roman;
+    font-size: 35px;
+}
+
+
+body{
+    border: 0 10 10 0;
+    margin: 0 10 10 0;
+    background-color: bisque;
+}
+.contenido{
+    border: 35px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+.boton{
+    border-radius: 25px;
+    font-family: Arial;
+    font-size: 18px;
+    background-color: burlywood;
+}
+.boton1:hover{
+    background-color: rgb(150, 101, 28);
+    color:white;
+}
+.logo{
+    width:"80px";
+    height: 80px;
+    border-radius: 35px;
+    border: 6px solid yellow;
+    transition: transform 3s ease;
+}
+.imagenes{
+    background-color: darkkhaki;
+}
+.imagen{
+    width: 350px;
+    height: 350px;
+    border: 4px solid beige;
+    border-radius: 25px;
+}
+.imagen:hover{
+    width: 450px;
+    height: 450px;
+    transition: 3s ease-in-out;
+}
+.imagen2{
+    width: 350px;
+    height: 350px;
+    border: 4px solid beige;
+    border-radius: 25px;
+    transition: transform 3s ease;
+}
+.imagen2:hover{
+    width: 450px;
+    height: 450px;
+    transform: scale(2.3) rotate(-5deg);
+}
+footer{
+    background-color: rgb(111, 117, 29);
+}
+.logo:hover{
+    width: 25px;
+    height: 30px;
+    transform: scale(2.3) rotate(-5deg);
+}
